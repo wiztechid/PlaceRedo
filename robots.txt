@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://placeredo.com/sitemap.xml
