@@ -9,3 +9,23 @@
 /* Exact A4 source for HTML -> PDF */
 .rp-print-sheet{position:fixed!important;left:-12000px!important;top:0!important;width:794px!important;height:1123px!important;min-width:794px!important;max-width:794px!important;box-sizing:border-box!important;box-shadow:none!important;overflow:hidden!important;z-index:-1;background:#faf7f0!important}
 .rp-print-sheet .rp-mast{min-height:76px;padding:0 32px}.rp-print-sheet .rp-title{padding:19px 32px 15px}.rp-print-sheet .rp-title h3{font-size:29px;margin:4px 0 6px}.rp-print-sheet .rp-kpis>div{padding:13px 18px}.rp-print-sheet .rp-kpis b{font-size:18px}.rp-print-sheet .rp-grid>div{padding:18px 32px}.rp-print-sheet .rp-sheet h4{margin-bottom:11px}.rp-print-sheet td,.rp-print-sheet th{padding:5px 0}.rp-print-sheet .rp-move{padding:6px 0}.rp-print-sheet .rp-shop>div{min-height:34px}.rp-print-sheet .rp-plan{padding:17px 32px 18px}.rp-print-sheet .rp-plan article{min-height:82px;padding:10px 12px}.rp-print-sheet .rp-plan article>b{margin:8px 0 4px}.rp-print-sheet .rp-foot{padding:10px 32px}.rp-check{display:inline-flex!important;width:14px;height:14px;border:1.5px solid #77766f;align-items:center;justify-content:center;font-size:0;box-sizing:border-box}.rp-shop-tag{display:inline-flex;align-items:center;justify-content:center;background:var(--rpr);color:#fff;min-height:28px;padding:0 9px;font-size:9px;font-weight:900}
+
+/* Report V2.1 — print geometry + fidelity */
+.rp-print-sheet{display:flex!important;flex-direction:column!important;border:0!important}
+.rp-print-sheet .rp-mast{flex:0 0 78px;min-height:78px}
+.rp-print-sheet .rp-title{flex:0 0 auto}
+.rp-print-sheet .rp-kpis{flex:0 0 auto}
+.rp-print-sheet .rp-core{flex:0 0 auto}
+.rp-print-sheet .rp-action{flex:0 0 auto}
+.rp-print-sheet .rp-plan{flex:1 1 auto;display:flex;flex-direction:column;justify-content:center}
+.rp-print-sheet .rp-foot{flex:0 0 34px;min-height:34px;align-items:center;margin-top:auto}
+.rp-print-sheet .rp-mast>div{font-size:10.5px;line-height:1.45}
+.rp-print-sheet .rp-mast small{font-size:8.5px}
+.rp-print-sheet .rp-shop>div{grid-template-columns:16px minmax(0,1fr) 82px 52px;gap:8px}
+.rp-print-sheet .rp-shop strong{text-align:right;font-size:10.5px}
+.rp-print-sheet .rp-shop-tag{display:flex!important;width:52px;height:27px;min-height:27px;padding:0!important;border-radius:3px;background:#b8452e!important;color:#fff!important;font:800 8.5px/27px var(--sans)!important;text-align:center}
+.rp-print-sheet .rp-check{width:13px!important;height:13px!important;border:1.8px solid #67675f!important;background:#fff!important}
+.rp-print-sheet .rp-shop>div,.rp-print-sheet .rp-move,.rp-print-sheet td,.rp-print-sheet th{border-color:#d3ccbf!important}
+.rp-print-sheet .rp-action>div{padding-top:16px;padding-bottom:16px}
+.rp-print-sheet .rp-plan>div{width:100%}
+.rp-print-sheet .rp-plan article{min-height:88px}
