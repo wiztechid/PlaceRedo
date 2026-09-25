@@ -29,3 +29,7 @@
 .rp-print-sheet .rp-action>div{padding-top:16px;padding-bottom:16px}
 .rp-print-sheet .rp-plan>div{width:100%}
 .rp-print-sheet .rp-plan article{min-height:88px}
+
+/* Affiliate-ready procurement state */
+.rp-shop-tag[data-shop-active="0"]{background:#e8dfd2!important;color:#6f685e!important;border:1px solid #cfc4b5!important;font-size:7.5px!important}
+.rp-shop-tag[data-shop-active="1"]{cursor:pointer;background:#b8452e!important;color:#fff!important}
